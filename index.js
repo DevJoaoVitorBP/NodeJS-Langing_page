@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 app.use(express.static('public'));
 
 http.createServer(app).listen(port, host, () => {
-  console.log(`Server running at http://${host}:${port}`);
+  console.log(`Server running at http://${host}:${port} 🚀`);
 });
 
 app.get('/', (res, req) => {
