@@ -19,7 +19,8 @@
         <div class="header__container">
             <h1>break<span class="color_change">io</span></h1>
             <nav>
-                <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <!-- Remova a classe .menu-toggle do botão -->
+                <button aria-controls="primary-menu" aria-expanded="false">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
                         <g clip-path="url(#clip0_356_20954)">
                             <path d="M4 6.5H20" stroke="#C026D3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -33,7 +34,8 @@
                         </defs>
                     </svg>
                 </button>
-                <ul class="hidden md:flex md:items-center md:justify-between d-none">
+                <!-- Torna a lista ul visível para desktop (remove a classe 'hidden' e 'd-none') -->
+                <ul class="header__container-list md:flex md:items-center md:justify-between">
                     <li><a href="#">Explore</a></li>
                     <li><a href="#">Solutions</a></li>
                     <li><a href="#">About</a></li>
@@ -49,7 +51,7 @@
         <div class="section__container">
             <div class="section__container-left">
                 <div class="section__container-left-text">
-                    <h1>It's time to take a break</h1>
+                    <h1 id="intro_tile">It's time to take a break</h1>
                     <p>Build your meditation skills with an app that gives you all you need!</p>
                 </div>
                 <div class="section__container-left-input">
