@@ -381,7 +381,7 @@
   font-size: 24px;
 }
 
-#section_2-text{
+.section__container-left-text{
   width: 900px;
   align-items: center;
   display: flex;
@@ -389,7 +389,7 @@
   margin-right: auto;
 }
 
-#title-2{
+#title{
   font-size: 58px;
   font-weight: 800;
 }
@@ -401,5 +401,11 @@
   font-weight: bold;
   font-size: 24px;
   border-radius: 26px;
+}
+
+.section__container-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
 }
 }
