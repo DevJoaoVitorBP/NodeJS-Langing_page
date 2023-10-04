@@ -19,7 +19,7 @@
   line-height: 110%;
 }
 
-.header__container nav ul {
+#primary-menu{
   display: none;
 }
 
