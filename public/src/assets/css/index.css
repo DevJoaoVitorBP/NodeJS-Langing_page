@@ -311,6 +311,10 @@
 /* Media Queries */
 @media (min-width: 1280px){
 
+#primary-menu{
+  display: flex;
+}
+
 /* Header Styles */
   .header__container{
     padding: 24px 80px;
